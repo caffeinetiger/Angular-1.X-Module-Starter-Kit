@@ -1,0 +1,31 @@
+{
+  "version": "0.0.0",
+  "name": "ffc-web",
+  "private": true,
+  "scripts": {
+    "dev": "gulp Development && ws",
+    "prod": "gulp Production && ws"
+  },
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-concat": "2.6.0",
+    "gulp-sort": "2.0.0",
+    "gulp-cssmin": "0.1.7",
+    "gulp-uglify": "1.5.4",
+    "gulp-inject": "4.1.0",
+    "stream-series": "0.1.1",
+    "del": "2.2.1"
+  },
+  "dependencies": {
+    "angular": "^1.5.5",
+    "angular-animate": "^1.5.8",
+    "angular-aria": "^1.5.8",
+    "angular-material": "1.1.0-rc.5",
+    "angular-signalr-hub": "^1.6.2",
+    "angular-ui-router": "^0.3.1",
+    "font-awesome": "^4.6.1",
+    "jquery": "^3.1.0",
+    "local-web-server": "^1.2.2",
+    "moment": "^2.13.0"
+  }
+}
